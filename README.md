@@ -1,6 +1,4 @@
-README
 
-=============
 Linux command :
 =============
   - whoami 
@@ -15,14 +13,13 @@ Linux command :
     : present working directory	
 
 
-=====================
+
 Jenkin Service Status:
 =====================
 1- sudo systemctl status jenkins
     1.1- If it is not running
         1.1.1 sudo systemctl start jenkins
         
-==================================
 Jenkins Installation via WAR file: 
 ==================================
 - Complete Installation Guide: https- //www.jenkins.io/doc/book/installing/
@@ -33,7 +30,6 @@ Jenkins Installation via WAR file:
     - http://localhost:8091
     
     
-==============================
 Maven Home path set in Jenkins:
 ==============================
 1- Go to Manage Jenkins
@@ -43,7 +39,6 @@ Maven Home path set in Jenkins:
     3.2- Set a name like "maven"
     3.3 Set MAVEN_HOME=/usr/share/maven/
     
-==============================
 Java Home path set in Jenkins:
 ==============================
 - Download java:
@@ -58,7 +53,6 @@ Java Home path set in Jenkins:
     3.2- Set a name like "maven"
     3.3 Set MAVEN_HOME=/usr/share/maven/    
     
-====================================
 Setup to setup Eclipse in Ubuntu Lab:
 ====================================
     
@@ -93,7 +87,6 @@ In terminal [ruuning the eclipse]
                                                                                     > Artifact Id: jfrog-demo
                                                                                           > [Finish]
       
-===================================
  Setup to install JFrog Artifactory
 ===================================
 1- Search for: JFrog Artifactory Install 

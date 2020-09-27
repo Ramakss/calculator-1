@@ -1,4 +1,3 @@
-
 Linux command :
 =============
   - whoami 
@@ -11,8 +10,6 @@ Linux command :
     : move back the directory		
   - pwd
     : present working directory	
-
-
 
 Jenkin Service Status:
 =====================
@@ -43,15 +40,24 @@ Java Home path set in Jenkins:
 ==============================
 - Download java:
   - Got to that page pick "Linux x64 Compressed Archive	"
-    -https://www.oracle.com/in/java/technologies/javase/javase-jdk8-downloads.html
+    -https://www.oracle.com/in/java/technologies/javase/javase-jdk8-downloads.html [jdk-8u261-linux-x64.tar.gz]
   - Click on "I reviewed and accept the Oracle Technology Network License Agreement for Oracle Java SE"
-  - 
-1- Go to Manage Jenkins
-2- Got to Gobal configuration
-3- Go Maven Installation
-    3.1- Uncheck auto installation
-    3.2- Set a name like "maven"
-    3.3 Set MAVEN_HOME=/usr/share/maven/    
+  - After download, then 
+     tar -xvf <jdk..tar.gz>
+     cd <jdk folder>
+  - pwd 
+    <Java Home Path is in output>
+  - copy the console output (java home path)
+  - echo "export JAVA_HOME=<copied console output path>" >> ~/.bash_profile
+  - got to maven project (where pom.xml present)
+  - mvn clean test
+  
+  - Go to Manage Jenkins
+  - Got to Gobal configuration
+  - Go Java Installation
+  - Uncheck auto installation
+  - Set a name like "java_home"
+  - Set JAVA_HOME=<Above Java Home Path>
     
 Setup to setup Eclipse in Ubuntu Lab:
 ====================================

@@ -4,7 +4,7 @@
 
   <groupId>org.simplilearn</groupId>
   <artifactId>calci</artifactId>
-  <version></version>
+  <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
 
   <name>calci</name>
@@ -41,5 +41,6 @@
 	  </plugin>
   	
   </plugins>
+	  <finalName>${project.name}</finalName>
 	  </build>
 </project>

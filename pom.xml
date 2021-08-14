@@ -91,7 +91,7 @@
 	  </build>
   <distributionManagement>
     <repository>
-      <id>calculator-1</id>
+      <id>calci</id>
       <name>calculator-1</name>
       <url>https://github.com/Ramakss/calculator-1.git</url>
     </repository>

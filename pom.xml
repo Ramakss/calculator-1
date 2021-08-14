@@ -89,11 +89,5 @@
   </plugins>
 	  <finalName>${project.name}</finalName>
 	  </build>
-  <distributionManagement>
-    <repository>
-      <id>calci</id>
-      <name>calculator-1</name>
-      <url>https://mvnrepository.com/</url>
-    </repository>
-  </distributionManagement>
+
 </project>

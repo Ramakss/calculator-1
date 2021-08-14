@@ -93,7 +93,7 @@
     <repository>
       <id>calci</id>
       <name>calculator-1</name>
-      <url>https://github.com/Ramakss/calculator-1.git</url>
+      <url>https://mvnrepository.com/</url>
     </repository>
   </distributionManagement>
 </project>

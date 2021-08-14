@@ -89,21 +89,11 @@
   </plugins>
 	  <finalName>${project.name}</finalName>
 	  </build>
-	<distributionManagement>
-		<site>
-			<id>calculator-1</id>
-			<name>calculator-1</name>
-			<url>gitsite:git@github.com/Ramakss/calculator-1.git</url>
-			<!--
-			YOU MUST PUT THE FOLLOWING IN ~/.m2/settings.xml
-			
-			<servers>
-				<server>
-					<id>github-project-site</id>
-					<username>git</username>
-				</server>
-			</servers>
-			-->
-		</site>
-	</distributionManagement>
+  <distributionManagement>
+    <repository>
+      <id>calculator-1</id>
+      <name>calculator-1</name>
+      <url>https://github.com/Ramakss/calculator-1.git</url>
+    </repository>
+  </distributionManagement>
 </project>
